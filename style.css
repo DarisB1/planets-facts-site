@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: center / cover url(./img/star.svg);
+    background-color: #070723;
+    color: #fff;
+    font-family: "Antonio", sans-serif;
+}
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 24px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+hr {
+    opacity: 0.4;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 24px;
+    list-style: none;
+    letter-spacing: 1.95px;
+    font-size: 9px;
+}
+
+.img-sec {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2-sec {
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.first-p {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: "Antonio", sans-serif;
+    margin: 16px 24px;
+}
+
+.source {
+    font-size: 12px;
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.div-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    opacity: 0.5;
+}
+
+.p-info {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.75px;
+}
